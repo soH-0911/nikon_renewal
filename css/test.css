@@ -1,0 +1,98 @@
+.product-wrap {
+    display: flex;
+    justify-content: start;
+    gap: 30px;    
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.product-item {
+    margin-bottom: 80px;
+}
+.product-item > button {
+    width: 293px;
+    height: 278px;
+    border: 1px solid var(--gray200);
+    text-align: center;
+    position: relative;
+    margin-bottom: 16px;
+}
+.product-item > button:hover {
+    border: 1px solid var(--primary500);
+    background-color: var(--primary100);
+}
+.product-item > button > img:first-child {
+    position: absolute;
+    left: 16px;
+    top: 16px;
+}
+.product-img {width: 200px;}
+
+.product-name {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+.product-text {
+    color: var(--gray600);
+    font-weight: 500;
+}
+.product-item > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;    
+}
+.product-price {
+    font-size: 1.125rem;
+}
+
+.product-item > label {
+    display: block;
+    width: 293px;
+    height: 278px;
+    border: 1px solid var(--gray200);    
+    position: relative;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+.product-item > label:hover {
+    border: 1px solid var(--primary500);
+    background-color: var(--primary100);
+}
+
+/* input 숨김처리*/
+.product-item > label > input {
+    display: none;
+}
+
+/* 체크박스 디폴트 이미지 적용 */
+.product-item > label > .checkbox-img {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(../images/sub01_img/icon-chk.png) no-repeat;
+    vertical-align: top;
+    margin: 14px 0 0 14px;
+}
+
+/* 체크박스 체크 이미지 적용 */
+.product-item > label > input:checked + span {
+    background-position-x: -70px;
+}
+
+.product-item > label > img {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.product-item button.icon-heart {  /* 하트 찜 디폴트 */
+    width: 17px;
+    height: 15px;
+    vertical-align: top;
+    background-image: url(../images/sub01_img/icon-heart.png);
+    background-repeat: no-repeat;
+}
+button.on {  /* 하트 찜 on */
+    background-position-x: -23px;
+}

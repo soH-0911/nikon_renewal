@@ -1,0 +1,259 @@
+/* 타이틀 비주얼 */
+.title-visual {
+    max-width: 100%;
+    height: 500px;
+    background-image: url(../images/sub01_img/title-visual-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;    
+    position: relative;
+}
+.title-text {
+    color: #fff;;
+    font-size: 2rem;
+    font-family: 'The-Jamsil-Bold';
+    text-align: center;
+    line-height: 500px;
+}
+.title-visual > ul {
+    display: flex;
+    text-align: right;
+    position: absolute;
+    right: 328px;
+    bottom: 18px;
+    color: var(--gray300);
+    font-size: 0.875rem;
+}
+.title-visual > ul li {
+    margin-right: 10px;
+}
+
+
+/* 서브 네비게이션 */
+.sub-menu {
+    max-width: 100%;    
+    border-bottom: 1px solid var(--gray300);        
+    display: flex;
+    align-items: center;        
+}
+.sub-menu > .contanier {
+    width: 1264px;
+    margin: 0 auto;    
+}
+.sub-menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.sub-menu ul li button {
+    padding: 28px 90px;
+    font-weight: 600;
+    color: var(--gray300); 
+    font-size: 1rem;
+}
+.sub-menu ul li:first-child button {
+    color: var(--gray500);
+    border-bottom: 2px solid var(--primary500);
+}
+.sub-menu ul li button:hover {
+    color: var(--gray500);
+    border-bottom: 2px solid var(--primary500);
+}
+
+/* 제품목록 */
+.camera-contanier {
+    margin: 0 auto;
+    margin-top: 190px;
+    max-width: 1264px;
+}
+.btn-small-menu {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-small-menu > div:nth-of-type(2) {
+    display: flex;
+}
+.btn-small-menu > div:nth-of-type(2) > button:nth-of-type(1) {
+    display: flex;
+}
+.product-type button{
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--gray300);
+    margin-right: 30px;
+}
+.product-type button:first-child {
+    color: var(--gray500);
+}
+.product-type button:hover {
+    color: var(--gray500);
+}
+.product-sort {
+    margin-right: 30px;
+}
+.product-sort button {
+    margin-left: 20px;
+    color: var(--gray300);
+}
+.product-sort button:first-child {
+    color: var(--gray500);
+    font-weight: 600;
+}
+.product-sort button:hover {
+    color: var(--gray500);
+    font-weight: 600;
+}
+.btn-filter, .btn-compare {
+    width: 135px;
+    line-height: 35px;
+    background-color: var(--primary500);    
+}
+.btn-filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 14px;
+}
+.btn-compare {
+    text-align: center;
+    margin-left: 12px;
+}
+
+.product-wrap {
+    display: flex;
+    justify-content: start;
+    gap: 30px;    
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.product-item {
+    margin-bottom: 80px;
+}
+.product-item > button {
+    width: 293px;
+    height: 278px;
+    border: 1px solid var(--gray200);
+    text-align: center;
+    position: relative;
+    margin-bottom: 16px;
+}
+.product-item > button:hover {
+    border: 1px solid var(--primary500);
+    background-color: var(--primary100);
+}
+.product-item > button > img:first-child {
+    position: absolute;
+    left: 16px;
+    top: 16px;
+}
+.product-img {width: 200px;}
+
+.product-name {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+.product-text {
+    color: var(--gray600);
+    font-weight: 500;
+}
+.product-item > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;    
+}
+.product-price {
+    font-size: 1.125rem;
+}
+
+.product-item > label {
+    display: block;
+    width: 293px;
+    height: 278px;
+    border: 1px solid var(--gray200);    
+    position: relative;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+.product-item > label:hover {
+    border: 1px solid var(--primary500);
+    background-color: var(--primary100);
+}
+
+/* input 숨김처리*/
+.product-item > label > input {
+    display: none;
+}
+
+/* 체크박스 디폴트 이미지 적용 */
+.product-item > label > .checkbox-img {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(../images/sub01_img/icon-chk.png) no-repeat;
+    vertical-align: top;
+    margin: 14px 0 0 14px;
+}
+
+/* 체크박스 체크 이미지 적용 */
+.product-item > label > input:checked + span {
+    background-position-x: -70px;
+}
+
+.product-item > label > img {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.product-item button.icon-heart {  /* 하트 찜 디폴트 */
+    width: 17px;
+    height: 15px;
+    vertical-align: top;
+    background-image: url(../images/sub01_img/icon-heart.png);
+    background-repeat: no-repeat;
+}
+button.on {  /* 하트 찜 on */
+    background-position-x: -23px;
+}
+
+
+
+
+/*바로가기 버튼*/
+.shortcuts-link-wrap{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1264px;
+    margin: 0 auto;
+    margin-top: 40px;
+    gap: 20px;
+}
+.shortcuts-link-wrap article {
+    width: 622px;
+    height: 180px;
+    overflow: hidden;
+}
+.shortcuts-link-wrap article a {
+    line-height: 180px;
+    text-align: center;
+    color: #fff;
+    display: block;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: .3s;
+}
+.shortcuts-link-wrap article a:hover {
+    transform: scale(120%);
+}
+.shortcuts-link-wrap article:first-child a {
+    background-image: url(../images/sub01_img/shortcuts-lens-img.png);
+}
+.shortcuts-link-wrap article:last-child a {
+    background-image: url(../images/sub01_img/shortcuts-acc-img.png);
+}
+.shortcuts-link-wrap article a span {
+    margin-right: 10px;
+}

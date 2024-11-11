@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nikon imaging Korea</title>
+    <script
+      src="https://kit.fontawesome.com/92f5b6de7b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/common.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="icon" href="./images/common_img/Nikon_favicon.png" />
+  </head>
+  <body>
+    <!-- 헤더 -->
+    <header>
+      <div class="header-container">
+        <div class="header-left-items">
+          <h1 class="header-logo">
+            <a href="./index.html">
+              <img
+                src="./images/header_img/Nikon_Logo.svg"
+                alt="니콘이미징코리아"
+              />
+            </a>
+          </h1>
+          <nav class="nav-main">
+            <ul>
+              <li>
+                <a class="nav-dep1-item" href="./sub-01.html">제품</a>
+                <ul>
+                  <li>
+                    <a class="nav-dep2-item" href="./sub-01.html">카메라</a>
+                  </li>
+                  <li><a class="nav-dep2-item" href="#none">쌍안경</a></li>
+                  <li><a class="nav-dep2-item" href="#none">거리측정기</a></li>
+                  <li><a class="nav-dep2-item" href="#none">액세서리</a></li>
+                  <li><a class="nav-dep2-item" href="#none">E-카달로그</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="nav-dep1-item" href="#none">니콘스쿨</a>
+                <ul>
+                  <li>
+                    <a class="nav-dep2-item" href="#none">니콘스쿨 소개</a>
+                  </li>
+                  <li><a class="nav-dep2-item" href="#none">강의안내</a></li>
+                  <li><a class="nav-dep2-item" href="#none">게시판</a></li>
+                  <li><a class="nav-dep2-item" href="#none">My 강의실</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="nav-dep1-item" href="#none">이벤트</a>
+                <ul>
+                  <li>
+                    <a class="nav-dep2-item" href="#none">진행중 이벤트</a>
+                  </li>
+                  <li>
+                    <a class="nav-dep2-item" href="#none">종료된 이벤트</a>
+                  </li>
+                  <li><a class="nav-dep2-item" href="#none">당첨자 발표</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="nav-dep1-item" href="#none">고객센터</a>
+                <ul>
+                  <li><a class="nav-dep2-item" href="#none">정품등록</a></li>
+                  <li><a class="nav-dep2-item" href="#none">A/S안내</a></li>
+                  <li>
+                    <a class="nav-dep2-item" href="#none">제품활용정보</a>
+                  </li>
+                  <li><a class="nav-dep2-item" href="#none">프로그램</a></li>
+                  <li><a class="nav-dep2-item" href="#none">소프트웨어</a></li>
+                  <li><a class="nav-dep2-item" href="#none">고객의 소리</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="nav-dep1-item" href="#none">비즈니스</a>
+                <ul>
+                  <li><a class="nav-dep2-item" href="#none">NPS 모집</a></li>
+                  <li><a class="nav-dep2-item" href="#none">CLUB:N</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="nav-dep1-item" href="#none">Nikon</a>
+                <ul>
+                  <li><a class="nav-dep2-item" href="#none">Nikon 소개</a></li>
+                  <li>
+                    <a class="nav-dep2-item" href="#none">Nikon 콘텐츠</a>
+                  </li>
+                  <li><a class="nav-dep2-item" href="#none">공지사항</a></li>
+                  <li><a class="nav-dep2-item" href="#none">브랜드소식</a></li>
+                  <li><a class="nav-dep2-item" href="#none">매장안내</a></li>
+                  <li><a class="nav-dep2-item" href="#none">채용정보</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header-right-btn">
+          <a href="https://eshop.nikon-image.co.kr/" target="_blank">
+            E-shop
+            <div>
+              <img
+                src="./images/header_img/icon-link.png"
+                alt=""
+                class="icon-link"
+              />
+            </div>
+          </a>
+          <a href="#none">login</a>
+          <a href="#none"
+            ><div>
+              <img
+                src="./images/header_img/icon-heart.png"
+                alt=""
+                class="icon-heart"
+              /></div
+          ></a>
+          <button type="button">
+            <img
+              src="./images/header_img/icon-search.png"
+              alt=""
+              class="icon-search"
+            />
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- //헤더 -->
+
+    <!-- 맨 위로 올라가기 -->
+    <a href="" class="go-top">
+      <img src="./images/index_img/go-top.png" alt="" />
+    </a>
+    <!-- //맨 위로 올라가기 -->
+
+    <!-- 메인배너 -->
+    <div class="swiper banner">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide banner-img1">
+          <div class="inner-banner">
+            <p>Nikon Z fc 출시</p>
+            <h2>새로운 미러리스, 새로운 감성</h2>
+            <a href="#none">자세히 알아보기</a>
+          </div>
+        </div>
+        <div class="swiper-slide banner-img2">
+          <div class="inner-banner">
+            <p>Nikon School</p>
+            <h2>10월 니콘스쿨 강의일정</h2>
+            <a href="#none">자세히 알아보기</a>
+          </div>
+        </div>
+        <div class="swiper-slide banner-img3">
+          <div class="inner-banner">
+            <p>Nikon Z9 출시</p>
+            <h2>사진 너머에 세상을 담다</h2>
+            <a href="#none">자세히 알아보기</a>
+          </div>
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- //메인배너 -->
+
+    <!-- 제품추천섹션 -->
+    <section class="section02">
+      <div class="text-area">
+        <h2 class="title-section">어떤 사진을 주로 찍고 싶으신가요?</h2>
+        <p class="text-section">
+          고객님의 촬영 용도에 맞게 Nikon 제품을 추천해드려요
+        </p>
+      </div>
+      <ul class="tab-menu">
+        <li><button type="button" class="on">인물촬영</button></li>
+        <li><button type="button">풍경촬영</button></li>
+        <li><button type="button">동영상촬영</button></li>
+      </ul>
+      <ul class="tab-contents">
+        <li class="content01-1dep">
+          <div class="content">
+            <div>
+              <img
+                class="product-img"
+                src="./images/index_img/suggest_01-1_D5600.png"
+                alt=""
+              />
+              <div class="product-text-area">
+                <p>D5600</p>
+                <p>새로운 추억을 만들다</p>
+                <p>
+                  - SnapBridge 지원<br />
+                  - 작고 가벼운 바디, 터치가 가능한 모니터 탑재<br />
+                  - 고화질 & 고감도의 다채로운 표현력<br />
+                </p>
+              </div>
+              <a href="#none" class="btn-product-more">자세히보기</a>
+            </div>
+          </div>
+        </li>
+        <li class="content02-1dep">
+          <div class="content">
+            <div>
+              <img
+                class="product-img"
+                src="./images/index_img/suggest_01-1_D850.png"
+                alt=""
+              />
+              <div class="product-text-area">
+                <p>D850</p>
+                <p>우월함의 차이란 이런것</p>
+                <p>
+                  - 4,575만 화소의 고해상도 풀프레임 DSLR<br />
+                  - 4K UHD 동영상 촬영과 고속 연사 기능 지원<br />
+                  - 뛰어난 다이내믹 레인지와 저조도 성능<br />
+                </p>
+              </div>
+              <a href="#none" class="btn-product-more">자세히보기</a>
+            </div>
+          </div>
+        </li>
+        <li class="content03-1dep">
+          <div class="content">
+            <div>
+              <img
+                class="product-img"
+                src="./images/index_img/suggest_01-1_D3500.png"
+                alt=""
+              />
+              <div class="product-text-area">
+                <p>D3500</p>
+                <p>내가 사랑한 모든 순간</p>
+                <p>
+                  - 2,410만 화소의 입문용 DX 포맷 DSLR<br />
+                  - 작고 가벼운 디자인, 간편한 사용법<br />
+                  - 긴 배터리 수명으로 장시간 촬영가능<br />
+                </p>
+              </div>
+              <a href="#none" class="btn-product-more">자세히보기</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <!-- <ul class="btn-section-menu">
+            <li><button type="button">인물촬영</button></li>
+            <li><button type="button">풍경촬영</button></li>
+            <li><button type="button">동영상 촬영</button></li>
+        </ul>
+        <article class="sub-section-human">            
+            <div class="btn-arrow">
+                <button type="button"><img src="./images/index_img/arrow_prev.png" alt=""></button>
+                <button type="button"><img src="./images/index_img/arrow_next.png" alt=""></button>
+            </div>
+        <div class="img-area">
+            <span class="text-setting">D5600 / AF-S NIKKOR 50mm f/1-8G</span>
+            <div class="product-container">
+                <div class="product-bg">
+                    <img class="img-product" src="./images/index_img/suggest_01-1_D5600.png" alt="">
+                    <div class="product-text">
+                        <h3>D5600</h3>
+                        <p>새로운 추억을 만든다.</p>
+                        <p>
+                            - SnapBridge 지원<br>
+                            - 작고 가벼운 바디, 터치가 가능한 모니터 탑재<br>
+                            - 고화질 & 고감도의 다채로운 표현력<br>
+                        </p>
+                    </div>
+                    <a href="#none" class="btn-product-more">자세히보기</a>
+                </div>                
+            </div>
+        </div>
+        <div class="btn-paging">
+            <button type="button" class="paging-01"></button>
+            <button type="button" class="paging-02"></button>
+            <button type="button" class="paging-03"></button>
+            <button type="button" class="paging-04"></button>
+            <button type="button" class="paging-05"></button>
+        </div>
+        </article>         -->
+    </section>
+    <!-- //제품추천섹션 -->
+
+    <!-- 인기제품섹션 -->
+    <section>
+      <div class="text-area">
+        <h2 class="title-section">많은 사람들의 관심을 받아온 제품</h2>
+        <p class="text-section">가장 인기있는 상품목록이에요</p>
+      </div>
+      <div class="best-product-container">
+        <article class="best-product">
+          <a href="#none">
+            <div class="best-product-wrap">
+              <div class="best-product-info">
+                <h3>Z 30 Body(Z30)</h3>
+                <p>모두의 감각을 일깨우다</p>
+                <p>880,000<span class="won-size-small">원</span></p>
+              </div>
+              <div class="best-product-img">
+                <img src="./images/index_img/best_01.png" alt="" />
+              </div>
+            </div>
+          </a>
+        </article>
+        <article class="best-product">
+          <a href="#none">
+            <div class="best-product-wrap">
+              <div class="best-product-info">
+                <h3>Zfc Body(Zfc)</h3>
+                <p>미러리스, 감성을 장착하다</p>
+                <p>1,180,000<span class="won-size-small">원</span></p>
+              </div>
+              <div class="best-product-img">
+                <img src="./images/index_img/best_02.png" alt="" />
+              </div>
+            </div>
+          </a>
+        </article>
+        <article class="best-product">
+          <a href="#none">
+            <div class="best-product-wrap">
+              <div class="best-product-info">
+                <h3>Z 50 Body(Z50)</h3>
+                <p>가볍다, 모두 담겨있다</p>
+                <p>1,100,000<span class="won-size-small">원</span></p>
+              </div>
+              <div class="best-product-img">
+                <img src="./images/index_img/best_03.png" alt="" />
+              </div>
+            </div>
+          </a>
+        </article>
+      </div>
+      <div class="best-product-container">
+        <article class="best-product">
+          <a href="#none">
+            <div class="best-product-wrap">
+              <div class="best-product-info">
+                <h3>D7500 Body</h3>
+                <p>깨끗한 표현력의 끝판왕</p>
+                <p>1,180,000<span class="won-size-small">원</span></p>
+              </div>
+              <div class="best-product-img">
+                <img src="./images/index_img/best_04.png" alt="" />
+              </div>
+            </div>
+          </a>
+        </article>
+        <article class="best-product">
+          <a href="#none">
+            <div class="best-product-wrap">
+              <div class="best-product-info">
+                <h3>AF-S NIKKOR 50mm f/1.4G</h3>
+                <p>새로운 광학계 설계, 디지털 시대의 표준 렌즈</p>
+                <p>526,000<span class="won-size-small">원</span></p>
+              </div>
+              <div class="best-product-img">
+                <img src="./images/index_img/best_05re.png" alt="" />
+              </div>
+            </div>
+          </a>
+        </article>
+        <article class="best-product">
+          <a href="#none">
+            <div class="best-product-wrap">
+              <div class="best-product-info">
+                <h3>COOLSHOT PROII STABILIZED</h3>
+                <p>최고의 선택, 최고의 플레이</p>
+                <p>548,000<span class="won-size-small">원</span></p>
+              </div>
+              <div class="best-product-img">
+                <img src="./images/index_img/best_06re.png" alt="" />
+              </div>
+            </div>
+          </a>
+        </article>
+      </div>
+    </section>
+    <!-- //인기제품섹션 -->
+
+    <!-- 니콘스쿨섹션 -->
+    <section class="school-section">
+      <div class="text-area">
+        <h2 class="title-section">
+          카메라는 어렵다? 니콘스쿨과 함께라면 쉽다!
+        </h2>
+        <p class="text-section">
+          사진을 사랑하는 모든 유저분들께 도움을 드리고자 니콘스쿨에서 다양한
+          강의를 제공하고 있습니다.<br />
+          카메라 기초 작동법부터 고급 스킬까지! 니콘스쿨과 함께라면 즐거운 사진
+          생활을 하실 수 있습니다.
+        </p>
+      </div>
+      <div class="card-item-wrap slide-animation">
+        <article class="card-item">
+          <div class="card-img img1"></div>
+          <div class="card-text-area">
+            <h3>괜찮아요, 그냥 믿고 따라오세요</h3>
+            <p>
+              사실 처음에는 반신반의 하며 강의를 들었었는데, 확실히 듣기 전보다
+              실력이 좋아졌습니다. 이제 인생샷 건질 일만 남았네요!
+            </p>
+          </div>
+        </article>
+        <article class="card-item">
+          <div class="card-img img2"></div>
+          <div class="card-text-area">
+            <h3>감사해요 니콘스쿨! 적게 일하고 많이 버세요!!!</h3>
+            <p>
+              카메라의 ‘카’도 몰랐던 제가 이런 사진을 찍을 수 있게 되었다는 것이
+              믿기지 않습니다. 제 사진라이프를 찾아주셔서 감사합니다!!!!
+            </p>
+          </div>
+        </article>
+        <article class="card-item">
+          <div class="card-img img3"></div>
+          <div class="card-text-area">
+            <h3>초보자도 듣기 쉬워요</h3>
+            <p>
+              근접샷 찍는 방법을 익히는데에 많은 도움이 되었습니다. 이해하기
+              쉽도록 잘 설명해주셔서 감사드립니다.
+            </p>
+          </div>
+        </article>
+        <article class="card-item">
+          <div class="card-img img4"></div>
+          <div class="card-text-area">
+            <h3>덕분에 금손이 되었습니다</h3>
+            <p>
+              여행을 자주다녀서 사진으로 추억을 자주 남기는 편인데, 덕분에 더
+              생동감있게 사진을 찍을 수 있게 되었습니다.
+            </p>
+          </div>
+        </article>
+        <article class="card-item">
+          <div class="card-img img1"></div>
+          <div class="card-text-area">
+            <h3>괜찮아요, 그냥 믿고 따라오세요</h3>
+            <p>
+              사실 처음에는 반신반의 하며 강의를 들었었는데, 확실히 듣기 전보다
+              실력이 좋아졌습니다. 이제 인생샷 건질 일만 남았네요!
+            </p>
+          </div>
+        </article>
+        <article class="card-item">
+          <div class="card-img img2"></div>
+          <div class="card-text-area">
+            <h3>감사해요 니콘스쿨! 적게 일하고 많이 버세요!!!</h3>
+            <p>
+              카메라의 ‘카’도 몰랐던 제가 이런 사진을 찍을 수 있게 되었다는 것이
+              믿기지 않습니다. 제 사진라이프를 찾아주셔서 감사합니다!!!!
+            </p>
+          </div>
+        </article>
+        <article class="card-item">
+          <div class="card-img img3"></div>
+          <div class="card-text-area">
+            <h3>초보자도 듣기 쉬워요</h3>
+            <p>
+              근접샷 찍는 방법을 익히는데에 많은 도움이 되었습니다. 이해하기
+              쉽도록 잘 설명해주셔서 감사드립니다.
+            </p>
+          </div>
+        </article>
+        <article class="card-item">
+          <div class="card-img img4"></div>
+          <div class="card-text-area">
+            <h3>덕분에 금손이 되었습니다</h3>
+            <p>
+              여행을 자주다녀서 사진으로 추억을 자주 남기는 편인데, 덕분에 더
+              생동감있게 사진을 찍을 수 있게 되었습니다.
+            </p>
+          </div>
+        </article>
+      </div>
+      <a class="btn-go-scholl" href="#none">니콘스쿨 바로가기</a>
+    </section>
+    <!-- //니콘스쿨섹션 -->
+
+    <!-- 이벤트섹션 -->
+    <section>
+      <div class="text-area">
+        <h2 class="title-section">니콘 이벤트 소식</h2>
+        <p class="text-section">
+          Nikon의 다양한 이벤트에 참여하셔서 풍성한 혜택을 누려보세요
+        </p>
+      </div>
+      <div class="event-contanier">
+        <div class="btn-event-more">
+          <a href="#none">
+            <span>더보기</span>
+            <span><i class="fa-solid fa-plus"></i></span>
+          </a>
+        </div>
+        <div class="event-item-wrap">
+          <a href="#none" class="event-item">
+            <div>
+              <img src="./images/index_img/event_img-01.png" alt="" />
+              <div class="event-text-area">
+                <h3>망원으로의 초대</h3>
+                <p>24.06.01. ~ 24.06.30.</p>
+              </div>
+            </div>
+          </a>
+          <a href="#none" class="event-item">
+            <div>
+              <img src="./images/index_img/event_img-02.png" alt="" />
+              <div class="event-text-area">
+                <h3>주말특가 이벤트</h3>
+                <p>24.06.01. ~ 24.06.30.</p>
+              </div>
+            </div>
+          </a>
+          <a href="#none" class="event-item">
+            <div>
+              <img src="./images/index_img/event_img-03.png" alt="" />
+              <div class="event-text-area">
+                <h3>Z 삼총사 프로모션</h3>
+                <p>24.06.01. ~ 24.06.30.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- //이벤트섹션 -->
+
+    <!-- 서비스섹션 -->
+    <section class="service-container">
+      <a href="#none" class="link-service">
+        <img src="./images/index_img/customer_Section_icon_01.png" alt="" />
+        <p>정품등록</p>
+        <p>니콘제품 정품등록하고 다양한 혜택을 만나보세요</p>
+      </a>
+      <a href="#none" class="link-service">
+        <img src="./images/index_img/customer_Section_icon_02.png" alt="" />
+        <p>A/S 안내</p>
+        <p>
+          제품에 문제가 생기셨나요?<br />
+          AS를 신청해주세요
+        </p>
+      </a>
+      <a href="#none" class="link-service">
+        <img src="./images/index_img/customer_Section_icon_03.png" alt="" />
+        <p>제품활용정보</p>
+        <p>제품정보 및 자가진단정보를 <br />제공해드려요</p>
+      </a>
+      <a href="#none" class="link-service">
+        <img src="./images/index_img/customer_Section_icon_04.png" alt="" />
+        <p>FAQ</p>
+        <p>
+          자주묻는 질문에서<br />
+          궁금하신 사항을 확인하세요
+        </p>
+      </a>
+      <a href="#none" class="link-service">
+        <img src="./images/index_img/customer_Section_icon_05.png" alt="" />
+        <p>고객의 소리</p>
+        <p>
+          니콘제품 정품등록하고 <br />
+          다양한 혜택을 만나보세요
+        </p>
+      </a>
+    </section>
+    <!-- //서비스섹션 -->
+
+    <!-- 푸터 -->
+    <footer>
+      <div class="footer-top">
+        <nav class="nav-footer">
+          <ul>
+            <li>
+              <a class="nav-dep1-item" href="./sub-01.html">제품</a>
+              <ul>
+                <li>
+                  <a class="nav-dep2-item" href="./sub-01.html">카메라</a>
+                </li>
+                <li><a class="nav-dep2-item" href="#none">쌍안경</a></li>
+                <li><a class="nav-dep2-item" href="#none">거리측정기</a></li>
+                <li><a class="nav-dep2-item" href="#none">액세서리</a></li>
+                <li><a class="nav-dep2-item" href="#none">E-카달로그</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="nav-dep1-item" href="#none">니콘스쿨</a>
+              <ul>
+                <li><a class="nav-dep2-item" href="#none">니콘스쿨 소개</a></li>
+                <li><a class="nav-dep2-item" href="#none">강의안내</a></li>
+                <li><a class="nav-dep2-item" href="#none">게시판</a></li>
+                <li><a class="nav-dep2-item" href="#none">My 강의실</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="nav-dep1-item" href="#none">이벤트</a>
+              <ul>
+                <li>
+                  <a class="nav-dep2-item" href="#none">진행 중인 이벤트</a>
+                </li>
+                <li><a class="nav-dep2-item" href="#none">종료된 이벤트</a></li>
+                <li><a class="nav-dep2-item" href="#none">당첨자 발표</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="nav-dep1-item" href="#none">고객센터</a>
+              <ul>
+                <li><a class="nav-dep2-item" href="#none">정품등록</a></li>
+                <li><a class="nav-dep2-item" href="#none">A/S안내</a></li>
+                <li><a class="nav-dep2-item" href="#none">제품활용정보</a></li>
+                <li>
+                  <a class="nav-dep2-item" href="#none">프로그램 다운로드</a>
+                </li>
+                <li>
+                  <a class="nav-dep2-item" href="#none">제품 소프트웨어</a>
+                </li>
+                <li><a class="nav-dep2-item" href="#none">고객의 소리</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="nav-dep1-item" href="#none">비즈니스</a>
+              <ul>
+                <li><a class="nav-dep2-item" href="#none">NPS</a></li>
+                <li><a class="nav-dep2-item" href="#none">CLUB:N</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="nav-dep1-item" href="#none">Nikon</a>
+              <ul>
+                <li><a class="nav-dep2-item" href="#none">Nikon 소개</a></li>
+                <li><a class="nav-dep2-item" href="#none">Nikon 콘텐츠</a></li>
+                <li><a class="nav-dep2-item" href="#none">공지사항</a></li>
+                <li><a class="nav-dep2-item" href="#none">브랜드소식</a></li>
+                <li><a class="nav-dep2-item" href="#none">매장안내</a></li>
+                <li><a class="nav-dep2-item" href="#none">채용정보</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <div class="footer-top-right">
+          <div class="list-family">
+            <p>Family Site</p>
+            <ul>
+              <li>
+                <a href="https://www.nikon.com/" target="_blank"
+                  >Precision Equipment : 정밀기기</a
+                >
+              </li>
+              <li>
+                <a href="https://industry.nikon.com/ko-kr/" target="_blank"
+                  >Microscope Solutions : 현미경 솔루션</a
+                >
+              </li>
+              <li>
+                <a href="https://industry.nikon.com/ko-kr/" target="_blank"
+                  >Industrial Metrology : 산업 계측기</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div class="call-center">
+              <p>고객상담센터</p>
+              <p>1588-0000</p>
+              <p>AM 09:00 - PM 06:00</p>
+            </div>
+            <div>
+              <a href="https://eshop.nikon-image.co.kr/" target="_blank"
+                ><span>E-shop</span
+                ><img src="./images/footer_img/icon-link-footer.png" alt=""
+              /></a>
+              <a href="#none">마이페이지</a>
+            </div>
+          </div>
+          <div class="footer-sns">
+            <a
+              href="https://www.instagram.com/nikon_imaging_korea/"
+              target="_blank"
+              ><img src="./images/footer_img/icon_instagram.png" alt=""
+            /></a>
+            <a href="https://www.facebook.com/NikonImagingKorea" target="_blank"
+              ><img src="./images/footer_img/icon_facebook.png" alt=""
+            /></a>
+            <a
+              href="https://www.youtube.com/user/nikonimagingkorea"
+              target="_blank"
+              ><img src="./images/footer_img/icon_youtube.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <img
+          src="./images/footer_img/footer_logo.png"
+          alt=""
+          class="foot-logo"
+        />
+        <ul>
+          <li><a href="#none">사이트맵</a></li>
+          <li><a href="#none">개인정보처리방침</a></li>
+          <li><a href="#none">사이트 이용약관</a></li>
+          <li><a href="#none">전자우편 무단수집거부</a></li>
+        </ul>
+        <address>
+          상호명: 주식회사 니콘이미징코리아 | 대표이사: 정해환 | 사업자등록번호:
+          104-81-98839 | 통신판매업신고: 제2018-서울강남-00068호<br />
+          주소: 서울특별시 강남구 테헤란로 87길 36 도심공항타워 22층<br />
+          전화번호: 080-800-6600 | 팩스: 01-2068-8488 | 이메일:
+          Support.Nikc@nikon.com<br />
+          호스팅제공자: 주식회사 인터넷이니시어티
+        </address>
+        <small>ⓒ 2024 Nikon Imaging Korea CO., LTD</small>
+      </div>
+    </footer>
+    <!-- //푸터  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+  </body>
+</html>

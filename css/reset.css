@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@font-face {
+    font-family: 'The-Jamsil-Bold';
+    src: url(../font/The\ Jamsil\ 5\ Bold.ttf) format("truetype");
+}
+/*swiper plugin*/
+.swiper {
+    width: 100%;
+    height: 100vh;
+  }
+/*///////////////////////////////////////*/
+
+:root {
+    /*브랜드 컬러*/
+    --primary100: #fff8cc;
+    --primary200: #fff199;
+    --primary300: #ffeb66;
+    --primary400: #ffe433;
+    --primary500: #ffdd00;
+    /*그레이스케일 컬러*/
+    --gray50: #f2f2f2;
+    --gray100: #e6e6e6;
+    --gray200: #cccccc;
+    --gray300: #b3b3b3;
+    --gray400: #999999;
+    --gray500: #262626;
+    --gray600: #666666;
+    --gray700: #4d4d4d;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans KR", sans-serif;
+    /* transition: .3s; */
+}
+
+body {
+    color: var(--gray500)
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+button {
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+address {
+    font-style: normal;
+}
+
+img {max-width: 100%;}
